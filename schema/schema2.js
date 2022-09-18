@@ -13,6 +13,7 @@ cube(`Charcentric`, {
     
     measures: {
       count: {
+        sql:'Statistics_English',
         type: `count`,
         drillMembers: []
       }
