@@ -20,17 +20,14 @@ cube(`Charcentric`, {
   dimensions: {
     statisticsArabic: {
       sql: `statistics_arabic`,
-      type: `time`
+      type: `string`
     },
     
     statisticsEnglish: {
       sql: `statistics_english`,
-      type: `time`
+      type: `date`
     },
-    statisticsArabic: {
-      sql: `statistics_arabic`,
-      type: `time`
-    },
+
     NumLines: {
       sql: `Number_of_fixed_lines`,
       type: `number`
