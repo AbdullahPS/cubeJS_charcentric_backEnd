@@ -25,7 +25,7 @@ cube(`Charcentric`, {
     
     statisticsEnglish: {
       sql: `statistics_english`,
-      type: `date`
+      type: `time`
     },
 
     NumLines: {
