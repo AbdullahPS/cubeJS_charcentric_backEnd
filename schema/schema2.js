@@ -25,12 +25,12 @@ cube(`Charcentric`, {
       },
       
       DialUpSubscriptions: {
-        sql: `DialUp_subscriptions`,
+        sql: `Dialup_subscriptions_iii`,
         type: `number`
       },
   
       BroadBandSubscriptions: {
-        sql: `Broadboand_subscriptions`,
+        sql: `Broadband_subscriptions`,
         type: `number`
       },
     },
