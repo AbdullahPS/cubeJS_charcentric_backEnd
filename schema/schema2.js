@@ -11,32 +11,32 @@ cube(`Charcentric`, {
       
     },
     
-    measures: {
-      count: {
-        sql:'Statistics_English',
-        type: `count`,
-        drillMembers: []
-      }
-    },
+  
     
-    dimensions: {
+    measures: {
       InternetSubscriptions: {
         sql: `Internet_subscriptions`,
-        type: `number`
+        type: `sum`
       },
       
       DialUpSubscriptions: {
         sql: `Dialup_subscriptions_iii`,
-        type: `number`
+        type: `sum`
       },
   
       BroadBandSubscriptions: {
         sql: `Broadband_subscriptions`,
-        type: `number`
-      },
+        type: `sum`
+      }
     },
+    dimensions:{
+        StatisticsArabic:{
+            sql:'Statistics_English',
+            type:'time'
+        }
+    }
+  
 
     
-    dataSource: `default`
   });
   
